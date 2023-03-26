@@ -1,4 +1,5 @@
 import UIKit
+// Necessary for UI elements, but we could have gone probably with Foundation for now
 
 /*
  Ex1:
@@ -12,6 +13,7 @@ var first: Float = 3.14
 var second: Float = 42.0
 var third: Double = Double(first + second)
 print(third)
+print(String(format: "%.2f", third))
 
 /*
  Ex2:
@@ -90,6 +92,8 @@ dateComponents.minute = 45
 // Create date from components
 let userCalendar = Calendar(identifier: .gregorian) // since the components above (like year 1980) are for Gregorian
 let myBirthday = userCalendar.date(from: dateComponents)
+
+// We could have also just added ?? to remove the optionality by providing a default
 
 print(myBirthday!)
 
