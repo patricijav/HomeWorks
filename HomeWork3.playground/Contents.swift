@@ -47,17 +47,23 @@ print("My even numbers are: \(evenNumber)")
 var counter: Int = 0
 let whichNumberToFind: Int = 5
 let numberPool: Int = 50
+var foundTheNumber: Bool = true
 
 // for _ in 1...100 // We could limit runs, for example, to 100
 while true { // The task said for loop, but while loop looks prettier
     counter += 1
     let randomNumber = Int.random(in: 1...50)
     if randomNumber == whichNumberToFind {
+        foundTheNumber = true
         break
     }
 }
-
-print("Number \(whichNumberToFind) will be after \(counter) shuffles")
+if foundTheNumber {
+    print("Number \(whichNumberToFind) will be after \(counter) shuffles")
+} else {
+    print("Number \(whichNumberToFind) wasn't found after \(counter) shuffles")
+}
+        
 
 /*
  Exercise 4
