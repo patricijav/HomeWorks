@@ -11,3 +11,4 @@ I use a different indexing system than the lecturer:
 - #lesson5 – HomeWork6
 - #lesson6 – [DarkTheme](https://github.com/patricijav/DarkTheme)
 - #lesson7 – [AutoLayout](https://github.com/patricijav/AutoLayout)
+- #lesson8 – [DayFinder](https://github.com/patricijav/DayFinder)
