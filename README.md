@@ -10,3 +10,4 @@ I use a different indexing system then the lecturer:
 - #lesson4 – HomeWork5
 - #lesson5 – HomeWork6
 - #lesson6 – [DarkTheme](https://github.com/patricijav/DarkTheme)
+- #lesson7 – [AutoLayout](https://github.com/patricijav/AutoLayout)
