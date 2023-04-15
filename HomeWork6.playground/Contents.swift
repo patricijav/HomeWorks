@@ -34,10 +34,18 @@ func calculateResult(firstNumber numberOne: Int, secondNumber numberTwo: Int, wi
     var result = numberOne
        
     switch calculationType {
-        case .addition: result += numberTwo
-        case .subtraction: result -= numberTwo
-        case .multiplication: result *= numberTwo
-        case .division: result /= numberTwo
+    case .addition:
+        result += numberTwo
+    case .subtraction:
+        result -= numberTwo
+    case .multiplication:
+        result *= numberTwo
+    case .division:
+        guard numberTwo != 0 else {
+            print("ERROR: It is not allowed to divide by 0!")
+            return result
+        }
+        result /= numberTwo
     }
     
     print("\(numberOne) \(calculationType.rawValue) \(numberTwo) = \(result)")
@@ -51,7 +59,7 @@ Declare two numbers.
 Call func 4 times for all calculateResult
 */
 let numberOne: Int = 9
-let numberTwo: Int = 3
+let numberTwo: Int = 0
 
 calculateResult(firstNumber: numberOne, secondNumber: numberTwo, withCalculationType: CalculationType.addition)
 calculateResult(firstNumber: numberOne, secondNumber: numberTwo, withCalculationType: CalculationType.subtraction)
