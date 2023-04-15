@@ -1,8 +1,8 @@
 # HomeWorks
 
-This repository contains homeworks from Accenture iOS Bootcamp 2023.
+This repository contains homework from Accenture iOS Bootcamp 2023.
 
-I use a different indexing system then the lecturer:
+I use a different indexing system than the lecturer:
 - #lesson1 – HomeWork1
 - #lesson1_5 – HomeWork2
 - #lesson2 – HomeWork3
