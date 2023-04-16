@@ -13,3 +13,5 @@ I use a different indexing system than the lecturer:
 - #lesson7 – [AutoLayout](https://github.com/patricijav/AutoLayout)
 - #lesson8 – [DayFinder](https://github.com/patricijav/DayFinder)
 - #lesson9 – [TempConverter](https://github.com/patricijav/TempConverter)
+
+To view all lecture notes, visit [this repository](https://github.com/patricijav/InClass).
